@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ruda:wght@400..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:"Poppins",sans-serif;
+}
+
+
+
+nav {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img{
+    max-width: 200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #24252a;
+    transition: all 0.3s ease 0s;
+}
+
+nav a:hover{
+    color: #606060;
+}
+
+nav i{
+    color: #24252a;
+    transition: all 0.3s ease 0s;
+}
+
+nav i:hover{
+    color: #606060;
+}
+
+
+.amanj{
+    margin-top: 10px;
+    padding: 0 60px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.amanj .amanj1 .amanj2 h2{
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+
+.amanj .amanj1 .amanj2 p{
+    color: #606060;
+}
+
+.btn1{
+border: none;
+border: solid 1px black;
+border-radius: 10px;
+padding: 10px;
+background: white;
+transition: all 0.3s ease 0s;
+}
+.btn1:hover{
+    background: black;
+    color: white;
+}
+
+
+.btn2{
+    border: none;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    background: black;
+    transition: all 0.3s ease 0s;
+}
+
+.btn2:Hover{
+    background: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.abbas{
+    margin-top: 10px;
+    padding: 0 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abbas .abbas1 .abbas2 h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.abbas .abbas1 .abbas2 p{
+    text-align: start;
+    padding: 15px;
+}
+.btn4{
+    border: none;
+    border:  solid 1px black;
+    border-radius: 10px;
+    margin:10px;
+    width: 7%;
+    background:black;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.btn4:hover{
+    background:white;
+    color: black;
+}
+
+
+footer{
+    background:#24252a;
+    padding: 30px;
+    border-radius: 24px 24px 0 0;
+    margin-top: 8%;
+    color: #606060;
+}
+
+footer a{
+    text-decoration: none;
+    color: #606060;
+    padding: 30px;
+    transition: all 0.3s ease 0s;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer i{
+    transition: all 0.3s ease 0s;
+    padding: 10px;
+    color: #606060;
+}
+
+footer i:hover{
+    color: white;
+}
+
+.card{
+    margin: 20px;
+}
